@@ -1,0 +1,52 @@
+/* styles for ORDERS */
+.order {
+  position: fixed;
+  top: 91px;
+  left: 230px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: #ECEFF4;
+}
+
+.order .order-list {
+  align-items: center;
+  position: fixed;
+  margin-top: 80px;
+  height: 80%;
+  width: 80%;
+  margin-left: 40px;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px 5px #dddcdc;
+}
+
+h2 {
+  color: #321140;
+  text-align: left;
+}
+
+.order-data .search-order {
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 1000px;
+}
+
+@media (max-width: 768px) {
+  .order .order-list {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .order .order-list {
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: none;
+  }
+
+    .order .order-list {
+    margin-top: 20px;
+    box-shadow: none;
+  }
+}
